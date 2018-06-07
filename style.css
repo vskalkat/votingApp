@@ -1,0 +1,66 @@
+body{
+  background: url(assets/bg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pageTitle{
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size:52px;
+}
+.highlight{
+  background-color:yellow;
+  padding:15px;
+}
+
+.main-wrapper {
+  padding:150px;;
+}
+
+.player{
+  padding:50px;
+  text-align: center;
+}
+
+.playerImage{
+  height:250px;
+  border-radius: 50%;
+  border:solid 5px white;
+}
+.playerImage:hover{
+  box-shadow: 2px 5px 20px 8px rgba(0, 0, 0, .4);
+}
+
+.player1 > .playerImage{
+  background: url(assets/person1.jpg);
+  background-position: center;
+}
+
+.player2 > .playerImage{
+  background: url(assets/person2.jpg);
+  background-position: center;
+}
+
+.player3 > .playerImage{
+  background: url(assets/person3.jpg);
+  background-position: center;
+}
+
+.player4 > .playerImage{
+  background: url(assets/person4.jpg);
+  background-position: center;
+}
+
+.score{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 38px;
+}
+.bigScore{
+  font-size:54px;
+}
+
+.name{
+  font-family: 'Bangers', cursive;
+}
